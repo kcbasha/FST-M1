@@ -1,30 +1,34 @@
-package activities;
 
 public class Car {
-    //variables
-   String color;
-   String transmission;
-   int make;
-   int tyres;
-   int doors;
-//Constructor
-    Car ()
-    {
-        tyres=4;
-        doors=4;
-    }
-// Methods
-    public void displayCharacterstics () {
-        System.out.println("Color of the Car is: " + color);
-        System.out.println("Make of the Car is: " + make);
-        System.out.println("Transmission  of the Car is :" + transmission );
-        System.out.println("Number of doors for the Car are: " + doors);
-        System.out.println("Number of tyres for the Car are: " + tyres);
-    }
-    public void accelerate(){
-        System.out.println("Car is moving forward.");
-            }
-    public void brake(){
-        System.out.println("Car has stopped.");
-            }
+	String sColor;
+	String sTransmission;
+	int iMake;
+	int iTyres;
+	int iDoors;
+	
+	Car()
+	{
+		iTyres=4;
+		iDoors=4;
+	}
+	
+	public void displayCharacteristics() 
+	{
+		System.out.println("Color of car is :- "+sColor);
+		System.out.println("Transmission of car :- "+sTransmission);
+		System.out.println("Make of car :- "+iMake);
+		System.out.println("Tyres of car :- "+iTyres);
+		System.out.println("Doors of car :- "+iDoors);
+		
+	}
+	public void accelarate() 
+	{
+		System.out.println("Car is moving forward.");
+	}
+	public void brake() 
+	{
+		System.out.println("Car has stopped.");
+		
+	}
+
 }
